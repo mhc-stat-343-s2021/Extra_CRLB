@@ -1,0 +1,25 @@
+---
+title: 'Extra Points Opportunity: Cramer-Rao Lower Bound'
+subtitle: "STAT 343:  Mathematical Statistics"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is an OPTIONAL opportunity to earn up to 5 additional quiz points. You may consult your class notes on consistency and efficiency if you find it helpful.
+
+**This is due no later than *Thursday, April 22* at 11:59 PM ET**
+
+## Question
+
+Consider the following statement regarding some unbiased estimator $T$ of $\Theta$ and the Cramer-Rao lower bound.
+
+"If $Var(T) \geq \frac{1}{I(\theta_0)}$, then $T$ has the smallest variance among all unbiased estimators of $\theta$ and can be considered efficient."
+
+There is an error in the previous statement. Please correct the statement to make it true and include 1-2 sentences explaining why it is wrong.
+
+*You may find it helpful to consider the following:*
+
+*What if I have two unbiased estimators of $\Theta$, $T_1$ and $T_2$. It is guaranteed that $Var(T_1) \geq \frac{1}{I(\theta_0)}$ and $Var(T_2) \geq \frac{1}{I(\theta_0)}$. If the statement above were true, what are the implications for the variances of these two estimators?*
